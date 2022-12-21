@@ -14,7 +14,7 @@
     >
       <div class="px-4 py-4 md:px-6 lg:px-8">
         <div class="font-bold text-5xl text-indigo-800 mb-3">
-          Areas of Intrest
+          Areas of Interest
         </div>
         <div class="text-indigo-700 line-height-3 text-xl mb-6">
           As a Data Engineer and Data Scientist, I translate data into valuable
