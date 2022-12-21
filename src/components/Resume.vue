@@ -1,32 +1,34 @@
 <template>
-  <div class="bg-indigo-800 p-4 shadow-2 border-round">
+  <div class="bg-indigo-800 px-4 py-8 md:px-6 lg:px-8">
     <div class="font-medium text-3xl text-900 mb-3">Want to Hire me?</div>
     <div class="text-500 mb-5">I am looking for new career</div>
     <div class="grid grid-nogutter border-top-1 surface-border pt-2">
       <div class="col-12 md:col-6 p-3">
-        <div class="text-500 font-medium mb-2">Name</div>
+        <div class="text-yellow-600 font-medium mb-2">Name</div>
         <div class="text-900">{{ main.Name }}</div>
       </div>
       <div class="col-12 md:col-6 p-3">
-        <div class="text-500 font-medium mb-2">Email</div>
+        <div class="text-yellow-600 font-medium mb-2">Email</div>
         <div class="text-900">{{ main.Email }}</div>
       </div>
       <div class="col-12 md:col-6 p-3">
-        <div class="text-500 font-medium mb-2">Position's Intrested In</div>
+        <div class="text-yellow-600 font-medium mb-2">
+          Position's Intrested In
+        </div>
         <div class="text-900">{{ main.Position }}</div>
       </div>
       <div class="col-12 md:col-6 p-3">
-        <div class="text-500 font-medium mb-2">Salary Expectation</div>
+        <div class="text-yellow-600 font-medium mb-2">Salary Expectation</div>
         <div class="text-900">{{ main.Salary }}</div>
       </div>
       <div class="col-12 p-3">
-        <div class="text-500 font-medium mb-2">Bio</div>
+        <div class="text-yellow-600 font-medium mb-2">Bio</div>
         <div class="text-900 line-height-3">
           {{ main.Introduction }}
         </div>
       </div>
       <div class="col-12 p-3">
-        <div class="text-500 font-medium mb-3">Files</div>
+        <div class="text-yellow-600 font-medium mb-3">Files</div>
         <div
           class="
             flex

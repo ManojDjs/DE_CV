@@ -1,19 +1,35 @@
 <template>
-  <div class=" px-4 py-4 md:px-6 md:py-6 lg:px-8 border-round text-center
-        lg:text-left">
-    <div class="font-bold text-3xl  text-indigo-800 mb-3">
-      What i do when i am free?
-    </div>
+  <div
+    class="
+      px-4
+      py-4
+      md:px-6 md:py-6
+      lg:px-8
+      border-round
+      text-center
+      lg:text-left
+    "
+  >
+    <div class="font-bold text-3xl text-indigo-800 mb-3">When i am free?</div>
     <div class="text-indigo-700 line-height-3 text-xl mb-6">
-          As a Python developer i always love writing algorithms and problem solving. I participate in hackathons, 
-          coding challenges. I have completed hacker rank complete profile. Recently i started taking coding challenges
-          in Leet code.
-        </div>
-    <div class="font-large font-bold text-lg text-left uppercase mb-3 text-orange-500">
-      {{ username }}
+      As a Python developer i always love writing algorithms and problem
+      solving. I participate in hackathons, coding challenges. I have completed
+      hacker rank complete profile. Recently i started taking coding challenges
+      in Leet code.
+    </div>
+    <div
+      class="
+        font-large font-bold
+        text-lg text-left
+        uppercase
+        mb-3
+        text-orange-500
+      "
+    >
+      Leetcode User ID: {{ username }}
     </div>
     <!-- <div class="surface-ground px-4 py-5 md:px-6 lg:px-8"> -->
-    <div class="grid  fadeinleft animation-duration-1000">
+    <div class="grid fadeinleft animation-duration-1000">
       <div class="col-12 md:col-6 lg:col-3">
         <div class="surface-card shadow-2 p-3 border-round">
           <div class="flex justify-content-between mb-3">

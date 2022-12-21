@@ -1,17 +1,17 @@
 <template>
-  <div class="Main sm:m-0 lg:ml-1 lg:mr-1 ">
+  <div class="Main sm:m-0 lg:ml-1 lg:mr-1">
     <div
       class="mt-6 max-w-screen flex align-items-center justify-content-center"
     >
       <Nav></Nav>
     </div>
-    <div class="pb-2  mt-7 lg:mt-7 border-round">
+    <div class="pb-2 mt-7 lg:mt-7 border-round">
       <Skills></Skills>
     </div>
-    <div class="pb-2 border-round">
+    <div class="border-round">
       <Experience></Experience>
     </div>
-    
+
     <div class="pb-2 border-round">
       <Resume></Resume>
     </div>
@@ -34,9 +34,8 @@ export default {
     Skills,
     Experience,
     Footer,
-   
+
     Resume,
-   
   },
   methods: {
     scroll(id) {

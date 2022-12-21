@@ -5,7 +5,7 @@
         <div class="text-yellow-600 font-bold mb-3 text-xl">
           <i class="pi pi-github"></i>&nbsp;POWERED BY @MANOJDJS
         </div>
-        <div class="text-900 font-bold text-5xl mb-4">
+        <div class="text-900 font-bold md:text-5xl text-2xl mb-4">
           Join Me For Colloboration
         </div>
 

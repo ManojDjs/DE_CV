@@ -13,13 +13,15 @@
       "
     >
       <div class="px-4 py-4 md:px-6 lg:px-8">
-        <div class="font-bold text-5xl text-indigo-800 mb-3">Areas of Intrest</div>
+        <div class="font-bold text-5xl text-indigo-800 mb-3">
+          Areas of Intrest
+        </div>
         <div class="text-indigo-700 line-height-3 text-xl mb-6">
-          As a Data Engineer and Data Scientist, I translate data into
-          valuable and comprehensible insights. My goal is to improve results,
-          make the right decisions and save costs. I am experienced in machine
-          learning, supervised and unsupervised algorithms and use data
-          visualization techniques to present the results. I use Python,Pyspark,Pandas, SQL,
+          As a Data Engineer and Data Scientist, I translate data into valuable
+          and comprehensible insights. My goal is to improve results, make the
+          right decisions and save costs. I am experienced in machine learning,
+          supervised and unsupervised algorithms and use data visualization
+          techniques to present the results. I use Python,Pyspark,Pandas, SQL,
           Plotly and Tableau for my Projects.
         </div>
       </div>

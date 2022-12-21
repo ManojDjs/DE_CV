@@ -56,7 +56,7 @@
             src="@/assets/Dv.gif"
             class="shadow-0"
             alt="profile"
-            style="width: 80%; display: block; border-radius: 10%"
+            style="width: 100%; display: block; border-radius: 10%"
             id="image"
           />
         </div>
