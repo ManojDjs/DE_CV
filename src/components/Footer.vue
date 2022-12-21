@@ -1,60 +1,9 @@
 <template>
   <div class="Footer">
-    <div
-      class="surface-section px-4 py-8 md:px-6 lg:px-8 bg-teal-200 border-round"
-    >
+    <div class="px-4 py-8 md:px-6 lg:px-8 bg-indigo-800 border-round">
       <div class="text-700 text-center">
-        <div class="text-blue-600 font-bold mb-3 text-xl">
+        <div class="text-yellow-600 font-bold mb-3 text-xl">
           <i class="pi pi-github"></i>&nbsp;POWERED BY @MANOJDJS
-        </div>
-
-        <div class="card">
-          <div
-            class="flex justify-content-center flex-wrap card-container mb-4"
-          >
-            <div
-              class="
-                flex
-                align-items-center
-                justify-content-center
-                lg:text-3xl
-                text-2xl text-indigo-200
-                font-bold
-                border-round
-                m-4
-              "
-            >
-              4 Years of Experience
-            </div>
-            <div
-              class="
-                flex
-                align-items-center
-                justify-content-center
-                lg:text-3xl
-                text-2xl text-indigo-200
-                font-bold
-                border-round
-                m-4
-              "
-            >
-              {{ repo_c }} Projects
-            </div>
-            <div
-              class="
-                flex
-                align-items-center
-                justify-content-center
-                lg:text-3xl
-                text-2xl text-indigo-200
-                font-bold
-                border-round
-                m-4
-              "
-            >
-              92% Positive feed back
-            </div>
-          </div>
         </div>
         <div class="text-900 font-bold text-5xl mb-4">
           Join Me For Colloboration
@@ -108,8 +57,8 @@ export default {
       });
     },
     scrollToTop() {
-    window.scrollTo(0,0);
-  }
+      window.scrollTo(0, 0);
+    },
   },
 
   created() {

@@ -3,7 +3,7 @@
     <div
       class="
         grid grid-nogutter
-        surface-section
+        bg-indigo-800
         text-indigo-800
         shadow-2
         border-round-xl
@@ -71,15 +71,39 @@
         </section>
       </div>
       <div
-        class="col-12 md:col-6 overflow-hidden opacity-100 border-round"
-        v-show="w > 800"
+        class="col-12 md:col-6 bg-no-repeat bg-cover p-8"
+        style="
+          background-image: url('https://bufferwall.com/download/B20190923T000000374_1200x600');
+        "
       >
-        <img
-          src="@/assets/land.gif"
-          alt="Image"
-          class="md:ml-auto block md:h-auto"
-          style="clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%)"
-        />
+        <div class="text-white text-2xl font-medium mb-6">Contact Us</div>
+        <div class="text-gray-300 line-height-3 mb-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+        <a
+          class="
+            inline-flex
+            align-items-center
+            text-blue-300
+            font-bold
+            no-underline
+            cursor-pointer
+          "
+          ><span class="mr-3">View Address on Google Maps</span
+          ><i class="pi pi-arrow-right"></i
+        ></a>
+        <ul class="list-none p-0 m-0 mt-6 text-white">
+          <li class="flex align-items-center mb-3">
+            <i class="pi pi-phone mr-2"></i><span>+123456789</span>
+          </li>
+          <li class="flex align-items-center mb-3">
+            <i class="pi pi-twitter mr-2"></i><span>@prime_ng</span>
+          </li>
+          <li class="flex align-items-center">
+            <i class="pi pi-inbox mr-2"></i><span>contact@primetek.com.tr</span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
