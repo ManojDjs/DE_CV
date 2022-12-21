@@ -5,7 +5,7 @@
     >
       <Nav></Nav>
     </div>
-    <div class="border-round">
+    <div class="border-round mt-6 md:mt-0">
       <Profile></Profile>
     </div>
     <div class="pb-2 border-round">
